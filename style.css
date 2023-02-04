@@ -1,0 +1,149 @@
+/* NAVBAR */
+
+.page-title{
+    font-family: "Montserrat", sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0%;
+    
+}
+
+a{
+    text-decoration: none;
+    color:#363634e7;
+}
+
+
+
+
+.logo-img{
+    width: 123px;
+    height: auto;
+    padding-left: 20px;
+}
+
+.linea-gialla-blog{
+    border-top: solid 3px #FFED00;
+    width: 60px;
+    margin-left: 5%;
+    opacity: unset;
+    
+}
+
+.logo-shop{
+    color:rgba(8, 8, 8, 0.753);
+}
+
+
+/* FINE NAVBAR */
+
+/* HEADER */
+
+.header-titles{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#faf6f6;
+    
+}
+
+.bg-blog{
+    background-image: url(img/background-blog.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 330px;
+    background-position-y: 17%; 
+}
+
+/* FINE HEADER  */
+
+/* TRE CARD */
+
+.prima-c{
+    border: none;
+}
+
+.bgg-card{
+    background-color:#F8F9FA;
+}
+
+
+
+/* IN EVIDENZA */
+
+h2{
+    text-align: center;
+}
+
+/* FINE IN EVIDENZA */
+
+
+/*FOOTER*/
+
+.contattaci{
+    color:#F8F9FA;
+}
+
+.linea-gialla{
+    border-top: solid 3px #FFED00;
+    width: 100px;
+    margin-left: 0%;
+    opacity: unset;
+}
+
+.bg-bllack{
+    
+    background-color: #1d1d1b;
+  
+}
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.logo-footer{
+    width: 22%;
+    top:-5rem;
+    left:-5rem;
+    opacity:0.1;
+}
+
+
+#footer-title{
+    color:#FFED00;
+}
+
+.img-footer{
+    width: 190px;
+}
+
+.img-foot2{
+    width:27%;
+}
+
+.link-foot{
+    color:#F8F9FA;
+    text-decoration: none;
+}
+
+.textag{
+    text-align: right !important;
+}
+
+.bg-policy{
+    background-color:#020202;
+    height: 63px;
+    align-items: center;
+}
+
+.link-policy{
+    text-decoration: none;
+}
+
+.text-center{
+    text-align: center;
+}

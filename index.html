@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- BOOTSTRAP CDN -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog-Aulab</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!-- FONT-AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</body>
+
+    <!-- COLLEGAMENTO CSS -->
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+    <body>
+        
+        <!-- NAV BAR E PRIMO LOGO-->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria 
+                controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- LOGO -->
+                <a class="navbar-brand" href="#">
+                    <img class="logo-img" src="./img/logo-aulab-horizontal.jpg" alt="Bootstrap" width="100" height=""></a>
+              
+              
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  
+                  <!-- CORSI -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      CORSI
+                    </a>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  
+
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"></a>
+                    </li>
+
+
+
+                  <!-- DROPDOWN GUIDE-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      GUIDE
+                    </a>
+                    
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+
+                  <!-- FINE DROPDOWN -->
+
+                  
+                  <!-- WEBINAR -->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        WEBINAR
+                      </a>
+
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+
+                  <!-- BLOG -->
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="https://aulab.it/blog">BLOG</a>
+                          <hr class="linea-gialla-blog mt-1">
+                        </li>
+                  <!-- FINE BLOG -->
+                      
+                      <!-- CHI SIAMO -->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          CHI SIAMO
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+
+                      <!-- SEI UN'AZIENDA? -->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          SEI UN'AZIENDA?
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+ 
+                    
+                </ul>
+
+                <!-- BOTTONE SHOP -->
+              <ul>
+                  <li class="nav-item">
+                <a href="https://aulab.myspreadshop.it/" target="_blank"><button class="btn " type="submit"><i class="fa-solid fa-shop logo-shop"></i></a>
+                  </li>
+              </ul>
+                 <!-- BOTTONE SEARCH -->
+              <ul>
+                 <li class="nav-item">
+                 <button class="btn " type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> 
+                </li>
+              </ul>
+
+            
+              </div>
+            </div>
+          </nav>
+
+    
+
+        <!-- BG-IMG BLOG AULAB -->
+    <header class=" bg-blog header-titles pt-5">
+        <h1 class=" page-title pt-3"> <strong>Blog Aulab</strong></h1>
+        <h3 class="pt-4  page-title">News e aggiornamenti del mondo del coding e della formazione IT</h3>
+        <h3 class="pt-3  page-title">{ Stay tuned }</h3>
+    </header>
+              
+    
+        <!-- PRIME TRE CARD -->
+
+        <section class="container-fluid bgg-card py-5">
+
+       <!-- IN EVIDENZA -->
+      <div class="col pt-5 mt-3">
+        <h2> IN EVIDENZA </h2>
+        <hr class="linea-gialla mx-auto mb-5">
+      </div>
+
+        <div class="row">
+          <div class="col-4">
+            <div class="card prima-c" target="_blank">
+              <img src="./img/1111articolo_programmare_in_php-thumb.jpg" class="card-img-top" alt="...">
+              <div class="card-body bgg-card">
+                <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+                <p class=""> PUBBLICATO IL 01/12/20 </p>
+                <p>Un buon programmatore, si sa, necessita di un ampio bagaglio di conoscenze per potersi districare tra le difficoltà che questo mestie...</p>
+                          
+                <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card prima-c">
+                        <img src="./img/222articolo_programmare_Javascript-cover.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bgg-card">
+                          <h5 class="card-title">Corso Javascript online: cosa c'è da sapere</h5>
+                          <p>PUBBICATO IL 21/12/20</p>
+                          <p>Essere uno sviluppatore web vuol dire imparare più linguaggi per poter creare diversi tipi di applicazioni...  </p>
+                          <a href="https://aulab.it/notizia/195/corso-javascript-online-cosa-ce-da-sapere" target="_blank"> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-4">
+                    <div class="card prima-c">
+                        <img src="./img/3333articolo_programmare_Javascript-thumb.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bgg-card">
+                          <h5 class="card-title">Cos'è il linguaggio HTML e come impararlo</h5>
+                          <p class=""> PUBBLICATO IL 31/08/2021 </p>
+                          <p>Il linguaggio HTML (Hypertext Markup Language) è uno dei più conosciuti e diffusi: lo si trova infatti praticamente in tutte l...</p>
+                          <a href="https://aulab.it/notizia/250/cose-il-linguaggio-html-e-come-impararlo" target="_blank" class="">Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                      </div>
+                </div>
+
+               
+            </div>
+        </section>
+
+<!-- SECONDA SEZIONE CARD IMMAGINI -->
+
+<section class="container py-5">
+  <div class="row">
+      <div class="col-4">
+          <div class="card prima-c">
+              <img src="./img/444Javascript--dichiarare-variabili-cover-(1)-cover-cover.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+                <p class=""> PUBBLICATO IL 01/12/20 </p>
+                <p class="card-text">Un buon programmatore, si sa, necessita di un ampio bagaglio di conoscenze per potersi districare tra le difficoltà che questo mestie...</p>
+                
+                <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-4">
+          <div class="card prima-c">
+              <img src="./img/444Laravel-e-come-impararlo_ORIZZONTALE-cover-cover.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">10 funzioni di laravel che ti facilitano il lavoro</h5>
+                <p> PUBBLICATO IL 01/12/20 </p>
+                <p>Laravel è un framework MVC basato su PHP utile ad uno sviluppatore web per rendere i propri progetti più performanti. Laravel...</p>
+                <a href="https://aulab.it/notizia/381/10-funzioni-di-laravel-che-ti-facilitano-il-lavoro" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+
+      </div>
+      <div class="col-4">
+          <div class="card prima-c">
+              <img src="./img/555Webpack-Loade-cover-cover-thumb.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">>5 trick per usare al meglio il console.log di javascript</h5>
+                <p> PUBBLICATO IL 01/12/20 </p>
+                <p>Per avere uno stimolo in più nell'imparare il linguaggio CSS, si può ricorrere al metodo della gamification. È no...</p>
+                <a href="https://aulab.it/notizia/379/7-giochi-per-imparare-il-linguaggio-css" target="_blank" class="">Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+      </div>
+
+
+      <div class="col-4">
+        <div class="card prima-c">
+            <img src="./img/777Cos'è-express-cover-cover-thumb.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+              <p class=""> PUBBLICATO IL 01/12/20 </p>
+              <p class="card-text">Per uno sviluppatore web la conoscenza del linguaggio JavaScript è di vitale importanza. Imparare JavaScript è una delle fasi...</p>
+              
+              <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+          </div>
+    </div>
+
+
+    <div class="col-4">
+      <div class="card prima-c">
+          <img src="./img/444Javascript--dichiarare-variabili-cover-(1)-cover-cover.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+            <p class=""> PUBBLICATO IL 01/12/20 </p>
+            <p class="card-text">Un buon programmatore, si sa, necessita di un ampio bagaglio di conoscenze per potersi districare tra le difficoltà che questo mestie...</p>
+            
+            <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </div>
+  </div>
+
+
+  <div class="col-4">
+    <div class="card prima-c">
+        <img src="./img/777Cos'è-express-cover-cover-thumb.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+          <p class=""> PUBBLICATO IL 01/12/20 </p>
+          <p class="card-text">Per uno sviluppatore web la conoscenza del linguaggio JavaScript è di vitale importanza. Imparare JavaScript è una delle fasi...</p>
+          
+          <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+</div>
+
+
+<div class="col-4">
+  <div class="card prima-c">
+      <img src="./img/444Javascript--dichiarare-variabili-cover-(1)-cover-cover.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+        <p class=""> PUBBLICATO IL 01/12/20 </p>
+        <p class="card-text">Un buon programmatore, si sa, necessita di un ampio bagaglio di conoscenze per potersi districare tra le difficoltà che questo mestie...</p>
+        
+        <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+    </div>
+</div>
+
+
+<div class="col-4">
+  <div class="card prima-c">
+      <img src="./img/777Cos'è-express-cover-cover-thumb.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+        <p class=""> PUBBLICATO IL 01/12/20 </p>
+        <p class="card-text">Per uno sviluppatore web la conoscenza del linguaggio JavaScript è di vitale importanza. Imparare JavaScript è una delle fasi...</p>
+        
+        <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+    </div>
+</div>
+
+
+<div class="col-4">
+<div class="card prima-c">
+    <img src="./img/444Javascript--dichiarare-variabili-cover-(1)-cover-cover.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+      <p class=""> PUBBLICATO IL 01/12/20 </p>
+      <p class="card-text">Un buon programmatore, si sa, necessita di un ampio bagaglio di conoscenze per potersi districare tra le difficoltà che questo mestie...</p>
+      
+      <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-4">
+  <div class="card prima-c">
+      <img src="./img/777Cos'è-express-cover-cover-thumb.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+        <p class=""> PUBBLICATO IL 01/12/20 </p>
+        <p class="card-text">Per uno sviluppatore web la conoscenza del linguaggio JavaScript è di vitale importanza. Imparare JavaScript è una delle fasi...</p>
+        
+        <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+    </div>
+</div>
+
+
+<div class="col-4">
+<div class="card prima-c">
+    <img src="./img/444Javascript--dichiarare-variabili-cover-(1)-cover-cover.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+      <p class=""> PUBBLICATO IL 01/12/20 </p>
+      <p class="card-text">Un buon programmatore, si sa, necessita di un ampio bagaglio di conoscenze per potersi districare tra le difficoltà che questo mestie...</p>
+      
+      <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-4">
+  <div class="card prima-c">
+      <img src="./img/777Cos'è-express-cover-cover-thumb.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+        <p class=""> PUBBLICATO IL 01/12/20 </p>
+        <p class="card-text">Per uno sviluppatore web la conoscenza del linguaggio JavaScript è di vitale importanza. Imparare JavaScript è una delle fasi...</p>
+        
+        <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+    </div>
+</div>
+
+
+<div class="col-4">
+<div class="card prima-c">
+    <img src="./img/444Javascript--dichiarare-variabili-cover-(1)-cover-cover.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+      <p class=""> PUBBLICATO IL 01/12/20 </p>
+      <p class="card-text">Un buon programmatore, si sa, necessita di un ampio bagaglio di conoscenze per potersi districare tra le difficoltà che questo mestie...</p>
+      
+      <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-4">
+  <div class="card prima-c">
+      <img src="./img/777Cos'è-express-cover-cover-thumb.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+        <p class=""> PUBBLICATO IL 01/12/20 </p>
+        <p class="card-text">Per uno sviluppatore web la conoscenza del linguaggio JavaScript è di vitale importanza. Imparare JavaScript è una delle fasi...</p>
+        
+        <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+    </div>
+</div>
+
+
+<div class="col-4">
+<div class="card prima-c">
+    <img src="./img/444Javascript--dichiarare-variabili-cover-(1)-cover-cover.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+      <p class=""> PUBBLICATO IL 01/12/20 </p>
+      <p class="card-text">Un buon programmatore, si sa, necessita di un ampio bagaglio di conoscenze per potersi districare tra le difficoltà che questo mestie...</p>
+      
+      <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-4">
+  <div class="card prima-c">
+      <img src="./img/777Cos'è-express-cover-cover-thumb.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+        <p class=""> PUBBLICATO IL 01/12/20 </p>
+        <p class="card-text">Per uno sviluppatore web la conoscenza del linguaggio JavaScript è di vitale importanza. Imparare JavaScript è una delle fasi...</p>
+        
+        <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+    </div>
+</div>
+
+
+<div class="col-4">
+<div class="card prima-c">
+    <img src="./img/444Javascript--dichiarare-variabili-cover-(1)-cover-cover.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+      <p class=""> PUBBLICATO IL 01/12/20 </p>
+      <p class="card-text">Un buon programmatore, si sa, necessita di un ampio bagaglio di conoscenze per potersi districare tra le difficoltà che questo mestie...</p>
+      
+      <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-4">
+  <div class="card prima-c">
+      <img src="./img/777Cos'è-express-cover-cover-thumb.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+        <p class=""> PUBBLICATO IL 01/12/20 </p>
+        <p class="card-text">Per uno sviluppatore web la conoscenza del linguaggio JavaScript è di vitale importanza. Imparare JavaScript è una delle fasi...</p>
+        
+        <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+    </div>
+</div>
+
+
+<div class="col-4">
+<div class="card prima-c">
+    <img src="./img/444Javascript--dichiarare-variabili-cover-(1)-cover-cover.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+      <p class=""> PUBBLICATO IL 01/12/20 </p>
+      <p class="card-text">Un buon programmatore, si sa, necessita di un ampio bagaglio di conoscenze per potersi districare tra le difficoltà che questo mestie...</p>
+      
+      <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-4">
+  <div class="card prima-c">
+      <img src="./img/777Cos'è-express-cover-cover-thumb.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+        <p class=""> PUBBLICATO IL 01/12/20 </p>
+        <p class="card-text">Per uno sviluppatore web la conoscenza del linguaggio JavaScript è di vitale importanza. Imparare JavaScript è una delle fasi...</p>
+        
+        <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+    </div>
+</div>
+
+
+<div class="col-4">
+<div class="card prima-c">
+    <img src="./img/444Javascript--dichiarare-variabili-cover-(1)-cover-cover.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Come imparare a programmare con un corso PHP</h5>
+      <p class=""> PUBBLICATO IL 01/12/20 </p>
+      <p class="card-text">Un buon programmatore, si sa, necessita di un ampio bagaglio di conoscenze per potersi districare tra le difficoltà che questo mestie...</p>
+      
+      <a href="https://aulab.it/notizia/192/come-imparare-a-programmare-con-un-corso-php" target="_blank" class=""> Continua a leggere <i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+  </div>
+</div>
+
+<hr class="my-4">
+
+<p> <i> <b>Risultati visualizzati: 24 su 304</i></b></p>
+
+<!-- FINE CARD -->
+
+    
+
+</section>
+
+
+        <!-- FOOTER -->
+        <footer class="relative">
+        <img class="img-fluid accordion logo-footer absolute" src="./img/aulabsquare-black.png" alt="">
+        <div class="row bg-bllack container-fluid justify-content-evenly mx-0 text-white ">
+          
+          
+            <div class="col-2 my-5">
+            <h4 id="footer-title">Aulab Srl</h4>
+            <hr class="linea-gialla">
+            <ul>
+              
+              <li>Strada S. Giorgio Martire 2D</li>
+              <li>70124 Bari (BA)</li>
+              <li>
+                <i class="fa-solid fa-envelope mr-2" id="footer-title"></i>
+                <a class="contattaci text-white" href="https://aulab.it/contatti"> Contattaci</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-phone mr-2" id="footer-title"></i>
+                3926024621</li>
+              
+              </ul>
+
+            <ul class="d-flex justify-content-evenly">
+
+              <li>
+                <a href="https://www.facebook.com/aulab/" target="_blank" class="text-white"> <i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="//www.instagram.com/aulab_it/" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <a href="https://api.whatsapp.com/send/?phone=393339513967&text&type=phone_number&app_absent=0" target="_blank" class="text-white"><i class="fa-brands fa-whatsapp"></i></a>
+              </li>
+              <li>
+              <a href="https://twitter.com/auLAB_it" target="_blank" class="text-white"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+              <a href="https://www.linkedin.com/company/aulab-srl/" target="_blank" class="text-white"><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+        </div>
+          
+            <div class="col-2 my-5">
+            <h4 id="footer-title">Quick Menu</h4>
+            <hr class="linea-gialla">
+            <ul>
+              <li><a class="link-foot" href="https://aulab.it/"> Hackademy Full-time</a></li>
+              <li><a class="link-foot" href="https://aulab.it/">Hackademy Part-time</a></li>
+              <li><a class="link-foot" href="https://aulab.it/">Hack-Weekend Front-end </a></li>
+              <li><a class="link-foot" href="https://aulab.it/">Hack-Weekend Back-end</a></li>
+              <li><a class="link-foot" href="https://aulab.it/">Sviluppo Software</a></li>
+            </ul>
+            </div>
+
+          <div class="col-2 my-5">
+            <h4 id="footer-title">Guide</h4>
+            <hr class="linea-gialla">
+            <ul>
+            <p><a class="link-foot" href="https://aulab.it/"> Trova il corso giusto per te</a></p>
+            <p><a class="link-foot" href="https://aulab.it/">Come imparare a programmare</a></p>
+            <p><a class="link-foot" href="https://aulab.it/">Crea un sito web partendo da zero </a></p>
+            <p><a class="link-foot" href="https://aulab.it/">Come trovare lavoro nel mondo della programmazione</a></p>
+            <p><a class="link-foot" href="https://aulab.it/">Guida HTML e CSS</a></p>
+            <p><a class="link-foot" href="https://aulab.it/">Tutte le guide</a></p>
+            </ul>
+          </div>
+          
+          <div class="col-2 my-5">
+            <h4 id="footer-title" class="mb-2">Accreditamenti</h4>
+            <hr class="linea-gialla">
+            <img class="img-footer" src="./img/forma-temp.png" alt="">
+            <img class="mt-3" src="./img/logo-confindustria.svg" alt="">
+
+            <h4 id="footer-title" class="mt-5">Pledge Viewer</h4>
+            <hr class="linea-gialla">
+            <img class="img-footer" src="./img/pledge-viewer.png" alt="">
+          </div>
+          
+            <div class="col-2 mt-5">
+              <h4 id="footer-title">Accelerati da </h4>
+              <hr class="linea-gialla">
+              <img class="img-footer" src="./img/logo-socialfare.png" alt="">
+
+              <h4 id="footer-title" class="mt-5">Certificazioni </h4>
+              <hr class="linea-gialla">
+              <img class="img-foot2" src="./img/ISO9001_02.svg" alt="">
+              <img class="img-foot2" src="./img/ISO27001_02.svg" alt="">
+            </div>
+        
+<!-- FONTI FOOTER -->
+
+        <div class="row flex-end p-3 relative">
+          <div class="col-12 textag text-white">
+        <p class="mb-0"> <small>*Fonti</small></p>
+        <p class="m-0"><small>AGID (Agenzia per l'Italia Digitale) - 2018</small></p>
+        <p class="m-0"><small>5° edizione dell'Osservatorio delle Competenze Digitali - 2019</small></p>
+          </div>
+        </div>          
+      </div>
+
+      </footer>
+
+<!-- FOOTER SOTTO FOOTER -->
+
+<footer>
+  <div class="row bg-policy text-white text-center">
+    <div class="col-12">
+      <p>© 2023 <strong id="footer-title">Aulab.</strong> Tutti i diritti riservati • P.IVA IT07647440721 
+      <i class="fa-solid fa-circle-info"></i><a href="https://aulab.it/privacy-policy" class="text-white link-policy" target="_blank"> Privacy Policy </a>
+      <i class="fa-solid fa-gavel"></i><a href="https://aulab.it/downloads/codice-etico-aulab.pdf" class="text-white link-policy" target="_blank"> Codice etico</a>
+      </p>
+    </div>
+  </div>
+
+</footer>
+
+      
+
+</body>
+</html>
