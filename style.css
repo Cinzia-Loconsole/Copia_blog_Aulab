@@ -1,4 +1,14 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
 /* NAVBAR */
+
+
+/* .nvb{
+    position: fixed;
+} */
+
 
 .page-title{
     font-family: "Montserrat", sans-serif;
@@ -113,12 +123,23 @@ h2{
 }
 
 
+.social:hover{
+    color:#FFED00;
+}
+
+
+.img-conf {
+    max-width: 100%;
+    height: auto;
+}
+
 #footer-title{
     color:#FFED00;
 }
 
 .img-footer{
     width: 190px;
+    max-width: 100%;
 }
 
 .img-foot2{
@@ -145,5 +166,5 @@ h2{
 }
 
 .text-center{
-    text-align: center;
+    text-align: center !important;
 }
